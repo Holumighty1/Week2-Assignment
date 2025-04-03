@@ -1,0 +1,143 @@
+nav{
+   display: flex; 
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+   background-color: aqua;
+   border-radius: 10px;
+}
+
+nav img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 12px;
+    position: relative;
+    font-size: 30px;
+}
+.nav-links ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(238, 30, 57);
+    display: block;
+    margin: auto;
+    transition: 0.8;
+} 
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.one{
+    background-color: antiquewhite;
+    border: 20px;
+    border-radius: 20px;
+}
+
+.one p{
+    padding: 20px 20px;
+    font: 1em sans-serif;
+    font-style: oblique;
+    color: blueviolet;
+}
+
+.one h2{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.one img{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+
+.two{
+    background-color: grey;
+    border: 20px;
+    border-radius: 20px;
+}
+
+.two p{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.two img{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+
+.three{
+    background-color: fuchsia;
+    border: 20px;
+    border-radius: 20px;
+}
+
+.three p{
+    padding: 20px 20px;
+    color: green;
+    font-size: 20;
+}
+
+.three h2{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+.three img{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+
+.btn{
+    background-color: lightgreen;
+    display: relative;
+    color: green;
+    border: solid 1px #fff;
+    background: transparent;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 12px 34px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: solid 2px green;
+    color: green;
+    background: pink;
+    transition: 0.7s;
+}
